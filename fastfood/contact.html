@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - FastFood Management</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Reset */
+body, h1, h2, h3, p, form, input, button, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.header {
+  background-color: #ff6f61;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-info, .contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-form h3 {
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #e65a50;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>FastFood </h1>
+  </header>
+  
+  <main class="contact-container">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><strong>Address:</strong> 123 Burger Lane, Foodie City</p>
+        <p><strong>Phone:</strong> +8792055449</p>
+        <p><strong>Email:</strong> contact@priyankabirajdar@gmai.com</p>
+      </div>
+      
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="#" method="POST">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <p>© 2025 Priyanka Biradar All rights reserved.</p>
+  </footer>
+</body>
+</html>
